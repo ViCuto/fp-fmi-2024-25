@@ -39,6 +39,9 @@ Using the custom `Matrix` library, this module implements the rules for evaluati
 *   **`winner`**: Checks all rows, columns, and diagonals to declare an overall winner, a tie, or an ongoing game.
 *   **`emptySpots`**: Returns the coordinates of all unplayed cells on the board.
 
+---
+*(Note: A generalized matrix type `GenericMatrix` encoding arbitrary dimensions in the type system was intended as an optional bonus exercise and is intentionally not implemented.)*
+
 ## Running the Tests
 
 To test the implementation locally, you can use the Cabal build tool.
